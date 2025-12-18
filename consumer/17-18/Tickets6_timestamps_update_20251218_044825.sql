@@ -8671,3 +8671,42 @@ SET creation = '2025-12-17 17:39:50.000000',
 WHERE name = 'qvkrmuriqs';
 
 
+
+-- SQL queries to update HD Ticket and Comment timestamps
+-- This script updates creation and modified dates to match Freshdesk data
+-- Generated: 2025-12-18 19:12:34.342788
+-- Total tickets to process: 1
+
+
+-- ========================================
+-- Ticket: HD Ticket 33860 | Freshdesk ID: 22290271
+-- ========================================
+UPDATE `tabHD Ticket`
+SET creation = '2025-12-17 15:55:23',
+    modified = '2025-12-18 04:05:48',
+    opening_date = '2025-12-17',
+    opening_time = '15:55:23',
+    resolution_by = 2025-12-19 15:55:23,
+    first_response_time = NULL,
+    resolution_time = NULL
+WHERE name = '33860';
+
+-- Comments for HD Ticket 33860 (Freshdesk ID: 22290271)
+-- Comment c5phbt9mvb (FD Comment ID: 43978241554)
+UPDATE `tabComment`
+SET creation = '2025-12-17 15:55:23.000000',
+    modified = '2025-12-17 15:55:23.000000'
+WHERE name = 'c5phbt9mvb';
+
+-- Comment c5sg1h8bj0 (FD Comment ID: 43978242370)
+UPDATE `tabComment`
+SET creation = '2025-12-17 15:58:41.000000',
+    modified = '2025-12-17 15:58:41.000000'
+WHERE name = 'c5sg1h8bj0';
+
+-- Comment c602mfs4qu (FD Comment ID: 43978281965)
+UPDATE `tabComment`
+SET creation = '2025-12-17 18:49:55.000000',
+    modified = '2025-12-17 18:49:55.000000'
+WHERE name = 'c602mfs4qu';
+
